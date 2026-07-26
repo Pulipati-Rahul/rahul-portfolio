@@ -5,7 +5,11 @@ A sleek, modern, and fully responsive developer portfolio built to showcase tech
 ---
 
 ## 🚀 Live Preview
+<<<<<<< HEAD
 Explore the portfolio locally or host it directly via platforms like **Vercel**, **Netlify**, or **GitHub Pages**.
+=======
+https://rahul-portfolio-git-main-elite27.vercel.app
+>>>>>>> 9729151ff115caafecc4ca125eac005edeb551fb
 *   **Active Features:** Dynamic typing animation, floating profile card, interactive SVG-based contact cards, and smooth scroll reveal transitions.
 
 ---
@@ -44,6 +48,7 @@ Rahul Portfolio/
 
 ---
 
+<<<<<<< HEAD
 ## ⚙️ Quick Start
 
 To run this project locally:
@@ -58,6 +63,8 @@ To run this project locally:
     *   Use a local development server like **Live Server** (VS Code extension) for live hot-reloading.
 
 ---
+=======
+>>>>>>> 9729151ff115caafecc4ca125eac005edeb551fb
 
 ## ✏️ Customization
 
