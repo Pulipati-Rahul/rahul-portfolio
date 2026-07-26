@@ -167,21 +167,25 @@ This project is licensed under the MIT License.
 
 ---
 
-## 👨‍💻 Author
+# 👨‍💻 Author
 
-**Rahul Pulipati**
+**Pulipati Rahul**
 
 Full Stack Developer
 
 GitHub:
-https://github.com/Rahul19347558865
+https://github.com/Pulipati-Rahul
 
 LinkedIn:
-(Add your LinkedIn URL)
+https://www.linkedin.com/in/pulipati-rahul-92a27940b
 
 Portfolio:
-https://rahul-portfolio-git-main-elite27.vercel.app
+https://pulipatirahul.vercel.app/
 
 ---
 
-⭐ If you like this project, consider giving it a Star.
+# ⭐ Support
+
+If you found this project helpful, consider giving it a ⭐ on GitHub.
+
+It motivates me to continue building high-quality projects.
