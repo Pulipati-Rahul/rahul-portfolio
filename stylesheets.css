@@ -47,11 +47,16 @@
     scroll-behavior: smooth;
 }
 
+html, body {
+    overflow-x: hidden;
+    width: 100%;
+    max-width: 100%;
+}
+
 body {
     font-family: 'Inter', sans-serif;
     background-color: var(--bg-base);
     color: var(--color-text-primary);
-    overflow-x: hidden;
     line-height: 1.6;
     -webkit-font-smoothing: antialiased;
 }
@@ -1592,6 +1597,101 @@ a {
     transform: translate(0) !important;
 }
 
+/* Scroll Entry Highlight Animations for Mobile/Desktop */
+.skill-card-modern.scroll-reveal.visible {
+    animation: revealSkill 0.8s cubic-bezier(0.25, 1, 0.5, 1) forwards;
+}
+
+.expertise-card.scroll-reveal.visible {
+    animation: revealExpertise 0.8s cubic-bezier(0.25, 1, 0.5, 1) forwards;
+}
+
+.stat-card.scroll-reveal.visible {
+    animation: revealStat 0.8s cubic-bezier(0.25, 1, 0.5, 1) forwards;
+}
+
+.roadmap-card.scroll-reveal.visible {
+    animation: revealRoadmap 0.8s cubic-bezier(0.25, 1, 0.5, 1) forwards;
+}
+
+@keyframes revealSkill {
+    0% {
+        opacity: 0;
+        transform: translateY(30px) scale(0.92);
+        border-color: rgba(167, 139, 250, 0.16);
+    }
+    50% {
+        opacity: 1;
+        transform: translateY(-5px) scale(1.06);
+        border-color: var(--color-primary);
+        box-shadow: 0 10px 25px rgba(167, 139, 250, 0.25);
+        background-color: var(--bg-surface-hover);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0) scale(1);
+        border-color: rgba(167, 139, 250, 0.16);
+    }
+}
+
+@keyframes revealExpertise {
+    0% {
+        opacity: 0;
+        transform: translateY(30px) scale(0.95);
+        border-color: var(--border-color);
+    }
+    50% {
+        opacity: 1;
+        transform: translateY(-6px) scale(1.04);
+        border-color: var(--border-color-hover);
+        background-color: var(--bg-surface-hover);
+        box-shadow: 0 15px 30px rgba(167, 139, 250, 0.15);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0) scale(1);
+        border-color: var(--border-color);
+    }
+}
+
+@keyframes revealStat {
+    0% {
+        opacity: 0;
+        transform: translateY(25px) scale(0.95);
+        border-color: var(--border-color);
+    }
+    50% {
+        opacity: 1;
+        transform: translateY(-4px) scale(1.05);
+        border-color: var(--color-primary);
+        box-shadow: 0 15px 30px rgba(167, 139, 250, 0.15);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0) scale(1);
+        border-color: var(--border-color);
+    }
+}
+
+@keyframes revealRoadmap {
+    0% {
+        opacity: 0;
+        transform: translateY(30px) scale(0.95);
+        border-color: var(--border-color);
+    }
+    50% {
+        opacity: 1;
+        transform: translateY(-5px) scale(1.04);
+        border-color: var(--border-color-hover);
+        box-shadow: 0 15px 30px rgba(167, 139, 250, 0.15);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0) scale(1);
+        border-color: var(--border-color);
+    }
+}
+
 /* ==========================
    RESPONSIVE MEDIA QUERIES
 ========================== */
@@ -1786,5 +1886,10 @@ a {
     
     .timeline-marker {
         left: 5px;
+    }
+    
+    .roadmap-grid,
+    .expertise-grid {
+        grid-template-columns: 1fr;
     }
 }
