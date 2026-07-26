@@ -4,7 +4,7 @@ A modern, responsive, and performance-focused personal portfolio built to showca
 
 ## 🌐 Live Demo
 
-**Portfolio:** https://pulipatirahul.vercel.app/
+**Portfolio:** https://pulipatirahul.vercel.app
 
 ---
 
