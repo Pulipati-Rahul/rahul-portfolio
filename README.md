@@ -65,7 +65,7 @@ Rahul-Portfolio/
 ### Clone the Repository
 
 ```bash
-git clone https://github.com/Rahul19347558865/Rahul-Portfolio.git
+git clone https://github.com/Pulipati-Rahul/Rahul-Portfolio.git
 ```
 
 ### Navigate into the Project
