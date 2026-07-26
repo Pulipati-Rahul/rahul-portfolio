@@ -1,0 +1,828 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- SEO Optimization -->
+    <title>Pulipati Rahul | Full Stack Developer Portfolio</title>
+    <meta name="description" content="Portfolio of Pulipati Rahul, a passionate Full Stack Developer specializing in responsive web design, robust REST APIs, authentication, and database design.">
+    <meta name="keywords" content="Pulipati Rahul, Full Stack Developer, Software Engineer Portfolio, Web Developer Hyderabad, React Developer, Node.js, Express, MongoDB">
+    <meta name="author" content="Pulipati Rahul">
+    
+    <!-- Open Graph Metadata (Social Sharing) -->
+    <meta property="og:title" content="Pulipati Rahul | Full Stack Developer Portfolio">
+    <meta property="og:description" content="Discover featured projects, technical expertise, and academic milestones of Pulipati Rahul.">
+    <meta property="og:image" content="profile.jpeg">
+    <meta property="og:type" content="website">
+    
+    <!-- Typography (Google Fonts) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="stylesheets.css">
+</head>
+<body>
+
+    <!-- Gradient Background Highlights -->
+    <div class="glow-bg glow-1"></div>
+    <div class="glow-bg glow-2"></div>
+
+    <!-- ================= HEADER / NAVBAR ================= -->
+    <header class="header">
+        <div class="header-container">
+            <a href="#" class="logo" aria-label="Pulipati Rahul Home">
+                <span class="logo-accent">Pulipati Rahul</span>
+            </a>
+
+            <!-- Mobile Menu Toggle Button -->
+            <button class="menu-toggle" id="menuToggle" aria-label="Toggle Navigation Menu" aria-expanded="false">
+                <span class="bar bar-top"></span>
+                <span class="bar bar-mid"></span>
+                <span class="bar bar-bot"></span>
+            </button>
+
+            <nav class="navbar" id="navbar">
+                <a href="#home" class="nav-link active">Home</a>
+                <a href="#about" class="nav-link">About</a>
+                <a href="#skills" class="nav-link">Skills</a>
+                <a href="#expertise" class="nav-link">Expertise</a>
+                <a href="#education" class="nav-link">Education</a>
+                <a href="#projects" class="nav-link">Projects</a>
+                <a href="#roadmap" class="nav-link">Roadmap</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <!-- ================= HERO ================= -->
+        <section class="hero" id="home">
+            <div class="hero-container">
+                <div class="hero-content scroll-reveal">
+                    <div class="hero-badge">
+                        <span class="badge-dot"></span>
+                        Available for Internships & Full-time Roles
+                    </div>
+                    
+                    <h3 class="hero-subtitle">Hi, my name is</h3>
+                    <h1 class="hero-title">Pulipati Rahul</h1>
+                    
+                    <!-- Mobile Profile Card (Visible only on Mobile) -->
+                    <div class="mobile-profile-container">
+                        <div class="profile-card">
+                            <div class="profile-card-glow"></div>
+                            <div class="profile-img-container">
+                                <img src="profile.jpeg" alt="Pulipati Rahul" class="profile-image">
+                            </div>
+                            <div class="profile-info">
+                                <h4 class="profile-name">Rahul Pulipati</h4>
+                                <p class="profile-title">Full Stack Developer</p>
+                                <div class="profile-meta">
+                                    <span>📍 Hyderabad, IN</span>
+                                    <span class="divider">•</span>
+                                    <span class="active-pulse-container"><span class="pulse-dot"></span> Active</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <h2 class="hero-role">
+                        I am a <span id="typing"></span><span class="cursor">|</span>
+                    </h2>
+                    
+                    <p class="hero-desc">
+                        Computer Science student and Full Stack Developer based in Hyderabad, India. I specialize in building end-to-end web applications, designing scalable APIs, and crafting premium, responsive user interfaces.
+                    </p>
+                    
+                    <!-- Technology Badges -->
+                    <div class="tech-badges-grid">
+                        <span class="tech-badge">React.js</span>
+                        <span class="tech-badge">Node.js</span>
+                        <span class="tech-badge">Express.js</span>
+                        <span class="tech-badge">MongoDB</span>
+                        <span class="tech-badge">JavaScript</span>
+                        <span class="tech-badge">Java</span>
+                        <span class="tech-badge">Python</span>
+                    </div>
+                    
+                    <div class="hero-actions">
+                        <a href="#projects" class="btn btn-primary">
+                            <span>View Projects</span>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+                        </a>
+                        <a href="resume.pdf" download class="btn btn-secondary">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg>
+                            <span>Download Resume</span>
+                        </a>
+                        
+                        <div class="hero-socials">
+                            <a href="https://github.com/Pulipati-Rahul" target="_blank" rel="noopener noreferrer" aria-label="GitHub Profile" class="social-icon-btn">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
+                            </a>
+                            <a href="https://www.linkedin.com/in/pulipati-rahul-92a27940b" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn Profile" class="social-icon-btn">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg>
+                            </a>
+                            <a href="https://www.instagram.com/pulipati_rahul19" target="_blank" rel="noopener noreferrer" aria-label="Instagram Profile" class="social-icon-btn">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line></svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="hero-visual scroll-reveal desktop-only-visual">
+                    <div class="profile-card">
+                        <div class="profile-card-glow"></div>
+                        <div class="profile-img-container">
+                            <img src="profile.jpeg" alt="Pulipati Rahul" class="profile-image">
+                        </div>
+                        <div class="profile-info">
+                            <h4 class="profile-name">Rahul Pulipati</h4>
+                            <p class="profile-title">Full Stack Developer</p>
+                            <div class="profile-meta">
+                                <span>📍 Hyderabad, IN</span>
+                                <span class="divider">•</span>
+                                <span class="active-pulse-container"><span class="pulse-dot"></span> Active</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ================= ABOUT ================= -->
+        <section class="about section" id="about">
+            <div class="section-header scroll-reveal">
+                <span class="section-tag">Overview</span>
+                <h2 class="section-title">About Me</h2>
+                <div class="section-underline"></div>
+            </div>
+
+            <div class="about-grid">
+                <div class="about-bio scroll-reveal">
+                    <h3 class="about-subtitle">Engineering with passion and precision.</h3>
+                    <p class="about-desc">
+                        I am a focused developer based in Hyderabad, India, currently pursuing my B.Tech in Computer Science Engineering at Keshav Memorial Engineering College. My journey in tech started with a Diploma in CSE, where I graduated with a <strong>94% score</strong>, solidifying my analytical skills and fundamentals in code.
+                    </p>
+                    <p class="about-desc">
+                        My goal is to design applications that offer delightful user experiences backed by robust, secure, and clean architecture. I love taking down complex puzzles, optimizing database queries, and keeping my workflows highly maintainable.
+                    </p>
+                </div>
+
+                <div class="about-stats scroll-reveal">
+                    <div class="stat-card">
+                        <div class="stat-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 10v6M2 10l10-5 10 5-10 5z"></path><path d="M6 12v5c0 2 2 3 6 3s6-1 6-3v-5"></path></svg>
+                        </div>
+                        <h3 class="stat-value">94%</h3>
+                        <p class="stat-label">Diploma Score</p>
+                    </div>
+
+                    <div class="stat-card">
+                        <div class="stat-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"></polyline></svg>
+                        </div>
+                        <h3 class="stat-value">4+</h3>
+                        <p class="stat-label">Production Apps</p>
+                    </div>
+
+                    <div class="stat-card">
+                        <div class="stat-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>
+                        </div>
+                        <h3 class="stat-value">2026</h3>
+                        <p class="stat-label">Graduation Year</p>
+                    </div>
+
+                    <div class="stat-card">
+                        <div class="stat-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"></path></svg>
+                        </div>
+                        <h3 class="stat-value">100%</h3>
+                        <p class="stat-label">Growth Mindset</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ================= SKILLS ================= -->
+        <section class="skills section" id="skills">
+            <div class="section-header scroll-reveal">
+                <span class="section-tag">Stack</span>
+                <h2 class="section-title">Technical Skills</h2>
+                <div class="section-underline"></div>
+            </div>
+
+            <div class="skills-grid-modern">
+                <!-- Skill 1: HTML -->
+                <div class="skill-card-modern scroll-reveal">
+                    <div class="skill-logo-box">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="skill-svg-logo"><path d="M2.859 2.277h18.282l-1.662 18.664-7.479 2.078-7.479-2.078zm13.123 6.924h-7.653l.18 2.04h7.293l-.54 5.99-3.262.894-3.262-.894-.216-2.428H6.551l.36 4.148 5.089 1.412 5.089-1.412.72-8.082h-9.351l-.18-2.04h9.711z" fill="#e34f26"/></svg>
+                    </div>
+                    <span class="skill-name-modern">HTML</span>
+                </div>
+
+                <!-- Skill 2: CSS -->
+                <div class="skill-card-modern scroll-reveal">
+                    <div class="skill-logo-box">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="skill-svg-logo"><path d="M2.859 2.277h18.282l-1.662 18.664-7.479 2.078-7.479-2.078zm13.123 6.924h-7.653l-.18-2.04h8.013l.18-2.04H6.371l.54 6.12h7.293l-.36 4.01-1.843.518-1.843-.518-.117-1.325H8.013l.225 2.557 3.762 1.058 3.762-1.058.468-5.267z" fill="#1572b6"/></svg>
+                    </div>
+                    <span class="skill-name-modern">CSS</span>
+                </div>
+
+                <!-- Skill 3: JavaScript -->
+                <div class="skill-card-modern scroll-reveal">
+                    <div class="skill-logo-box">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="skill-svg-logo"><rect width="24" height="24" rx="4" fill="#f7df1e"/><path d="M19.14 17.54c0 .86-.46 1.54-1.36 1.8-1 .28-1.92.1-2.42-.26a2.02 2.02 0 0 1-.88-1.42l1.64-.32c.1.52.32.84.82.96.42.1.86.06 1.06-.18.22-.24.2-.66 0-.88-.2-.2-.5-.38-.96-.56l-.68-.26c-.92-.36-1.54-.78-1.9-1.28a3.3 3.3 0 0 1-.58-1.9c0-.98.54-1.74 1.42-2.1 1-.4 2.1-.2 2.66.24.52.4.74.96.84 1.58l-1.6.34c-.1-.4-.28-.7-.64-.84a1.05 1.05 0 0 0-1-.02c-.34.18-.46.54-.46.88 0 .42.22.7.74.9l.74.28c1.12.44 1.84.9 2.18 1.48.34.58.34 1.3.34 1.8zm-6.6-7.8h1.7v9.6h-1.7z" fill="#000000"/></svg>
+                    </div>
+                    <span class="skill-name-modern">JavaScript</span>
+                </div>
+
+                <!-- Skill 4: TypeScript -->
+                <div class="skill-card-modern scroll-reveal">
+                    <div class="skill-logo-box">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="skill-svg-logo"><rect width="24" height="24" rx="4" fill="#3178c6"/><path d="M20.03 16.27c0 .64-.1 1.15-.31 1.54a2.9 2.9 0 0 1-.9 1.05 4.6 4.6 0 0 1-1.42.61c-.55.12-1.12.18-1.71.18-.89 0-1.68-.13-2.37-.39a4.8 4.8 0 0 1-1.75-1.1c-.5-.5-.87-1.12-1.12-1.85l1.66-.69c.2.49.52.88.94 1.18.42.3.93.45 1.53.45.54 0 .97-.11 1.29-.32a.96.96 0 0 0 .47-.84c0-.2-.05-.36-.16-.5a1.8 1.8 0 0 0-.44-.37 6.4 6.4 0 0 0-.84-.36l-.99-.36a6.8 6.8 0 0 1-1.71-.8 3.1 3.1 0 0 1-1.12-1.18 3.4 3.4 0 0 1-.39-1.69c0-.65.13-1.22.4-1.72.26-.5.66-.89 1.18-1.17.52-.29 1.15-.43 1.88-.43.76 0 1.44.13 2.06.39.62.26 1.12.65 1.5 1.16a5.5 5.5 0 0 1 .84 1.76l-1.61.64c-.16-.47-.4-.84-.73-1.1-.32-.26-.74-.39-1.24-.39-.47 0-.84.1-1.1.3a.9.9 0 0 0-.39.73c0 .24.1.44.3.59.2.15.53.3 1 .46l.89.32c.79.28 1.44.59 1.95.93.5.34.88.77 1.13 1.3.26.51.39 1.14.39 1.87zm-9.35-6.53h-3.3v8.11H5.7v-8.11H2.4V8.16h8.28z" fill="#ffffff"/></svg>
+                    </div>
+                    <span class="skill-name-modern">TypeScript</span>
+                </div>
+
+                <!-- Skill 5: React.js -->
+                <div class="skill-card-modern scroll-reveal">
+                    <div class="skill-logo-box">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="skill-svg-logo"><path d="M12 9.07c-1.62 0-2.93 1.31-2.93 2.93s1.31 2.93 2.93 2.93 2.93-1.31 2.93-2.93-1.31-2.93-2.93-2.93zm0-7.39c-5.17 0-9.36 1.77-9.36 3.96 0 1.54 2.04 2.9 5.14 3.53a19.78 19.78 0 0 1-.22-2.15c0-2.88 2.04-5.32 4.44-5.34h.02c2.4 0 4.42 2.45 4.42 5.34 0 .74-.13 1.46-.35 2.14 3.09-.63 5.12-1.98 5.12-3.52 0-2.19-4.19-3.96-9.36-3.96h-.05zm0 18.23c-2.4 0-4.42-2.45-4.42-5.34 0-.74.13-1.46.35-2.14-3.09.63-5.12 1.98-5.12 3.52 0 2.19 4.19 3.96 9.36 3.96.02 0 .04 0 .05 0 5.17 0 9.36-1.77 9.36-3.96 0-1.54-2.04-2.9-5.14-3.53.22.68.35 1.4.35 2.14.01 2.89-2.03 5.34-4.42 5.35zm-8.87-9.13c0-1.54 2.04-2.9 5.14-3.53-.22-.68-.35-1.4-.35-2.14 0-2.89 2.04-5.34 4.44-5.35h.02c1.02 0 1.98.44 2.76 1.18a9.43 9.43 0 0 0-4.43 1.83C8.42 6.55 6.78 8.86 6.37 11.23a10.5 10.5 0 0 0-3.24-.45z" fill="#61dafb"/></svg>
+                    </div>
+                    <span class="skill-name-modern">React.js</span>
+                </div>
+
+                <!-- Skill 6: Next.js -->
+                <div class="skill-card-modern scroll-reveal">
+                    <div class="skill-logo-box">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="skill-svg-logo"><path d="M12 0c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm6.652 17.652l-5.632-7.234v7.234h-1.63v-9.61h1.564l5.341 6.848v-6.848h1.63v9.61h-1.273zm-8.625-5.303l1.536 2.032v3.271h-1.63v-1.76l-1.589-2.099 1.683-1.444z" fill="#ffffff"/></svg>
+                    </div>
+                    <span class="skill-name-modern">Next.js</span>
+                </div>
+
+                <!-- Skill 7: Node.js -->
+                <div class="skill-card-modern scroll-reveal">
+                    <div class="skill-logo-box">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="skill-svg-logo"><path d="M11.968 0C5.352 0 0 5.328 0 11.91c0 6.58 5.352 11.91 11.968 11.91 6.617 0 11.969-5.33 11.969-11.91C23.937 5.328 18.585 0 11.968 0zm.04 20.302c-4.662 0-8.441-3.761-8.441-8.392 0-4.63 3.779-8.392 8.44-8.392s8.442 3.761 8.442 8.392c0 4.631-3.78 8.392-8.442 8.392zm2.935-12.75l-.478-.266c-.328-.182-.82-.361-1.391-.361-1.077 0-1.704.57-1.704 1.344 0 .937.753 1.25 1.704 1.545.98.3 2.19.67 2.19 1.942 0 1.48-1.238 2.378-2.677 2.378-.96 0-1.748-.255-2.227-.55l.44-.944c.42.235.972.435 1.62.435.908 0 1.464-.47 1.464-1.127 0-.964-.814-1.236-1.748-1.543-1.002-.328-2.132-.733-2.132-1.92 0-1.42 1.155-2.215 2.502-2.215.753 0 1.503.201 1.917.43l-.47.902z" fill="#339933"/></svg>
+                    </div>
+                    <span class="skill-name-modern">Node.js</span>
+                </div>
+
+                <!-- Skill 8: Express.js -->
+                <div class="skill-card-modern scroll-reveal">
+                    <div class="skill-logo-box">
+                        <span class="skill-text-logo">ex</span>
+                    </div>
+                    <span class="skill-name-modern">Express.js</span>
+                </div>
+
+                <!-- Skill 9: Django -->
+                <div class="skill-card-modern scroll-reveal">
+                    <div class="skill-logo-box">
+                        <span class="skill-text-logo django-text">dj</span>
+                    </div>
+                    <span class="skill-name-modern">Django</span>
+                </div>
+
+                <!-- Skill 10: Tailwind CSS -->
+                <div class="skill-card-modern scroll-reveal">
+                    <div class="skill-logo-box">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="skill-svg-logo"><path d="M12.001 4.8c-3.2 0-5.2 1.6-6 4.8 1.2-1.6 2.6-2.2 4.2-1.8.913.228 1.565.89 2.288 1.624C13.666 10.618 15.027 12 18.001 12c3.2 0 5.2-1.6 6-4.8-1.2 1.6-2.6 2.2-4.2 1.8-.913-.228-1.565-.89-2.288-1.624C16.335 6.182 14.974 4.8 12.001 4.8zm-6 7.2c-3.2 0-5.2 1.6-6 4.8 1.2-1.6 2.6-2.2 4.2-1.8.913.228 1.565.89 2.288 1.624C7.666 17.818 9.027 19 12.001 19c3.2 0 5.2-1.6 6-4.8-1.2 1.6-2.6 2.2-4.2 1.8-.913-.228-1.565-.89-2.288-1.624C10.335 13.382 8.974 12 6.001 12z" fill="#06b6d4"/></svg>
+                    </div>
+                    <span class="skill-name-modern">Tailwind CSS</span>
+                </div>
+
+                <!-- Skill 11: Three.js -->
+                <div class="skill-card-modern scroll-reveal">
+                    <div class="skill-logo-box">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="skill-svg-logo"><path d="M12 .002L0 20.733h24L12 .002zm0 4.143l7.98 13.788H4.02L12 4.145z" fill="#ffffff"/></svg>
+                    </div>
+                    <span class="skill-name-modern">Three.js</span>
+                </div>
+
+                <!-- Skill 12: MongoDB -->
+                <div class="skill-card-modern scroll-reveal">
+                    <div class="skill-logo-box">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="skill-svg-logo"><path d="M17.18 10.635c-.808-3.987-3.08-7.391-4.708-9.925a.513.513 0 0 0-.872 0c-1.627 2.534-3.9 5.938-4.708 9.925a17.433 17.433 0 0 0-.256 3.01c0 4.544 3.738 8.163 4.227 8.62a1.442 1.442 0 0 0 1.954 0c.489-.457 4.227-4.076 4.227-8.62a17.433 17.433 0 0 0-.264-3.01zM12.062 21.6a.434.434 0 0 1-.124 0c-.046-.02-.857-.384-1.802-1.39a14.28 14.28 0 0 1-1.074-1.365 31.968 31.968 0 0 1-.365-.589c-.062-.104-.119-.2-.176-.3-.021-.039-.041-.077-.062-.116-.046-.09-.092-.18-.134-.27s-.083-.182-.122-.274c-.031-.077-.062-.154-.09-.231l-.105-.308c-.029-.095-.056-.192-.082-.288l-.071-.3c-.021-.1-.041-.205-.059-.31l-.053-.314c-.015-.107-.028-.216-.04-.326l-.036-.33c-.009-.112-.016-.226-.021-.34l-.018-.344c0-.124-.007-.249-.007-.375a13.3 13.3 0 0 1 .184-2.148c.036-.242.083-.483.139-.724A22.844 22.844 0 0 1 8.922 9.2a34.332 34.332 0 0 1 1.7-3.013c.473-.728.932-1.385 1.373-1.979.034-.046.082-.046.116 0 .441.594.9 1.251 1.373 1.979A34.223 34.223 0 0 1 15.19 9.2a22.844 22.844 0 0 1 .917 2.852c.056.241.103.482.139.724a13.3 13.3 0 0 1 .184 2.148c0 .126-.005.251-.007.375l-.018.344c0 .114-.012.228-.021.34l-.036.33c-.012.11-.025.219-.04.326l-.053.314c-.018.105-.038.21-.059.31l-.071.3c-.026.096-.053.193-.082.288l-.105.308c-.028.077-.059.154-.09.231-.039.092-.08.183-.122.274s-.088.18-.134.27c-.021.039-.041.077-.062.116-.057.1-.114.2-.176.3a31.968 31.968 0 0 1-.365.589 14.28 14.28 0 0 1-1.074 1.365c-.945 1.006-1.756 1.37-1.802 1.39z" fill="#47a248"/></svg>
+                    </div>
+                    <span class="skill-name-modern">MongoDB</span>
+                </div>
+
+                <!-- Skill 13: MySQL -->
+                <div class="skill-card-modern scroll-reveal">
+                    <div class="skill-logo-box">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="skill-svg-logo"><path d="M12.002.002C5.37.002.002 5.37.002 12c0 6.627 5.368 12 11.998 12 6.629 0 12-5.373 12-12-.002-6.63-5.371-11.998-12-11.998zm3.011 16.592c-.179.352-.513.626-.899.734-.385.108-.795.059-1.14-.139a1.967 1.967 0 0 1-.786-.88 2.062 2.062 0 0 1-.097-1.144c.057-.394.25-.752.544-1.015s.672-.41 1.066-.411a1.994 1.994 0 0 1 1.41.583 2.023 2.023 0 0 1 .586 1.415c0 .324-.079.64-.23.923l-.454-.065zm2.748-4.475a8.775 8.775 0 0 1-2.27 2.193 9.489 9.489 0 0 1-2.903 1.258c-.611.144-1.242.213-1.874.205a9.387 9.387 0 0 1-3.666-.814 9.176 9.176 0 0 1-3.003-2.193c-.454-.509-.814-1.096-1.066-1.741-.252-.646-.381-1.328-.381-2.016 0-1.897.698-3.722 1.954-5.111a9.23 9.23 0 0 1 4.743-2.736A9.458 9.458 0 0 1 12 .002a9.426 9.426 0 0 1 4.316 1.019 9.182 9.182 0 0 1 3.203 2.805 9.07 9.07 0 0 1 1.472 4.195 9.02 9.02 0 0 1-.229 4.103v.001z" fill="#00758f"/></svg>
+                    </div>
+                    <span class="skill-name-modern">MySQL</span>
+                </div>
+
+                <!-- Skill 14: PostgreSQL -->
+                <div class="skill-card-modern scroll-reveal">
+                    <div class="skill-logo-box">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="skill-svg-logo"><path d="M12 0C5.373 0 0 5.373 0 12s5.373 12 12 12 12-5.373 12-12S18.627 0 12 0zm5.132 15.688c-.147.218-.328.411-.538.572l-.771-.976c.159-.122.296-.269.406-.435l.903.839zm-1.874 1.139c-.201.127-.421.229-.652.304l-.454-1.137c.175-.056.342-.132.495-.229l.611 1.062zm-2.484.664a4.135 4.135 0 0 1-.741.139l-.105-1.221c.211-.018.418-.063.615-.133l.231 1.215zm-2.784.148c-.244-.012-.486-.048-.724-.108l.263-1.199c.18.046.364.073.549.082l-.088 1.225zm-2.613-.509c-.218-.08-.426-.184-.621-.311l.652-1.037c.148.096.306.175.472.236l-.503 1.112zm-2.096-1.123c-.167-.163-.314-.347-.439-.55l.944-.792c.095.154.207.294.334.417l-.839.925zm-1.293-1.86c-.085-.225-.141-.462-.167-.704l1.199.231c.02.184.062.364.126.535l-1.158.062z" fill="#336791"/></svg>
+                    </div>
+                    <span class="skill-name-modern">PostgreSQL</span>
+                </div>
+
+                <!-- Skill 15: Java -->
+                <div class="skill-card-modern scroll-reveal">
+                    <div class="skill-logo-box">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="skill-svg-logo"><path d="M2 18.5V20h17v-1.5H2zm19-8.5c-.83 0-1.5.67-1.5 1.5v3c0 .83.67 1.5 1.5 1.5s1.5-.67 1.5-1.5v-3c0-.83-.67-1.5-1.5-1.5zm-5-6h-3.5c-.28 0-.5.22-.5.5v9h4V4.5c0-.28-.22-.5-.5-.5zm-6 2H6.5c-.28 0-.5.22-.5.5v7h4V6.5c0-.28-.22-.5-.5-.5z" fill="#f89820"/></svg>
+                    </div>
+                    <span class="skill-name-modern">Java</span>
+                </div>
+
+                <!-- Skill 16: Python -->
+                <div class="skill-card-modern scroll-reveal">
+                    <div class="skill-logo-box">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="skill-svg-logo"><path d="M12.016 0C5.405 0 5.518 2.872 5.518 2.872l.012 2.996h6.636v.933H3.07s-3.07.34-3.07 5.586c0 5.244 2.658 5.485 2.658 5.485h1.587v-2.228s-.072-2.656 2.617-2.656h6.142s2.618-.047 2.618-2.645V3.882c0-2.599-2.274-3.882-3.606-3.882zm-2.91 1.622a.965.965 0 1 1 0 1.93.965.965 0 0 1 0-1.93z" fill="#3776ab"/><path d="M11.984 24c6.611 0 6.498-2.872 6.498-2.872l-.012-2.996h-6.636v-.933H20.93s3.07-.341 3.07-5.586c0-5.244-2.658-5.486-2.658-5.486h-1.586v2.229s.072 2.656-2.618 2.656h-6.142s-2.618.046-2.618 2.645v6.52c0 2.599 2.274 3.882 3.606 3.882zM14.9 22.378a.965.965 0 1 1 0-1.93.965.965 0 0 1 0 1.93z" fill="#ffd343"/></svg>
+                    </div>
+                    <span class="skill-name-modern">Python</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- ================= CORE EXPERTISE ================= -->
+        <section class="expertise section" id="expertise">
+            <div class="section-header scroll-reveal">
+                <span class="section-tag">Expertise</span>
+                <h2 class="section-title">Core Expertise</h2>
+                <div class="section-underline"></div>
+            </div>
+
+            <div class="expertise-grid">
+                <div class="expertise-card scroll-reveal">
+                    <div class="expertise-icon-box">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 3a3 3 0 0 0-3 3v12a3 3 0 0 0 3 3 3 3 0 0 0 3-3V6a3 3 0 0 0-3-3z"></path><path d="M6 21a3 3 0 0 0 3-3V6a3 3 0 0 0-3-3 3 3 0 0 0-3 3v12a3 3 0 0 0 3 3z"></path></svg>
+                    </div>
+                    <h3 class="expertise-title">Full Stack Development</h3>
+                    <p class="expertise-desc">
+                        Engineering end-to-end web applications with robust backend servers connected to modern, pixel-perfect frontend layouts.
+                    </p>
+                </div>
+
+                <div class="expertise-card scroll-reveal">
+                    <div class="expertise-icon-box">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="11" width="18" height="11" rx="2" ry="2"></rect><path d="M7 11V7a5 5 0 0 1 10 0v4"></path></svg>
+                    </div>
+                    <h3 class="expertise-title">Secure API Development</h3>
+                    <p class="expertise-desc">
+                        Designing high-performance, secure RESTful APIs utilizing robust verification algorithms, JWT authorization, and data encryption.
+                    </p>
+                </div>
+
+                <div class="expertise-card scroll-reveal">
+                    <div class="expertise-icon-box">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><ellipse cx="12" cy="5" rx="9" ry="3"></ellipse><path d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5"></path><path d="M3 12c0 1.66 4 3 9 3s9-1.34 9-3"></path></svg>
+                    </div>
+                    <h3 class="expertise-title">Database Design</h3>
+                    <p class="expertise-desc">
+                        Structuring relational and non-relational database schemas using MongoDB and SQL for fast queries and logical data flows.
+                    </p>
+                </div>
+
+                <div class="expertise-card scroll-reveal">
+                    <div class="expertise-icon-box">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect><line x1="8" y1="21" x2="16" y2="21"></line><line x1="12" y1="17" x2="12" y2="21"></line></svg>
+                    </div>
+                    <h3 class="expertise-title">Responsive UI/UX</h3>
+                    <p class="expertise-desc">
+                        Creating user-first layout designs using fluid grids, Flexbox, and CSS media queries to look stunning on mobile, tablet, and desktop.
+                    </p>
+                </div>
+
+                <div class="expertise-card scroll-reveal">
+                    <div class="expertise-icon-box">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21.2 15c.9-1.1 1.8-3 1.8-5a10 10 0 0 0-20 0c0 2 .9 3.9 1.8 5h16.4z"></path><path d="M12 2v8M16 10l-4-4-4 4"></path></svg>
+                    </div>
+                    <h3 class="expertise-title">Deployment & CI/CD</h3>
+                    <p class="expertise-desc">
+                        Configuring smooth server operations and hosting projects on Git-connected platforms like Vercel, Netlify, and Render.
+                    </p>
+                </div>
+
+                <div class="expertise-card scroll-reveal">
+                    <div class="expertise-icon-box">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><line x1="2" y1="12" x2="22" y2="12"></line><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path></svg>
+                    </div>
+                    <h3 class="expertise-title">Performance & SEO</h3>
+                    <p class="expertise-desc">
+                        Optimizing assets, layouts, loading metrics, and semantic structures to achieve exceptional search ranking and fast loading.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- ================= EDUCATION ================= -->
+        <section class="education section" id="education">
+            <div class="section-header scroll-reveal">
+                <span class="section-tag">Timeline</span>
+                <h2 class="section-title">Education</h2>
+                <div class="section-underline"></div>
+            </div>
+
+            <div class="timeline">
+                <div class="timeline-track"></div>
+                
+                <!-- B.Tech -->
+                <div class="timeline-item scroll-reveal">
+                    <div class="timeline-marker">
+                        <div class="marker-dot"></div>
+                    </div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <span class="timeline-date">2023 - 2026</span>
+                            <span class="timeline-status-badge active-badge">Pursuing</span>
+                        </div>
+                        <h3 class="timeline-title">B.Tech in Computer Science Engineering</h3>
+                        <h4 class="timeline-institution">Keshav Memorial Engineering College</h4>
+                        <p class="timeline-details">
+                            Diving deep into Advanced Algorithms, Data Structures, Software Engineering practices, Operating Systems, Database Management Systems, and Web Application Frameworks.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Diploma -->
+                <div class="timeline-item scroll-reveal">
+                    <div class="timeline-marker">
+                        <div class="marker-dot"></div>
+                    </div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <span class="timeline-date">2020 - 2023</span>
+                            <span class="timeline-status-badge success-badge">94% Marks</span>
+                        </div>
+                        <h3 class="timeline-title">Diploma in Computer Science Engineering</h3>
+                        <h4 class="timeline-institution">Samskruti College of Engineering and Technology</h4>
+                        <p class="timeline-details">
+                            Built robust fundamentals in computer networks, object-oriented languages (Java, C++), database systems, and web architecture. Graduated with academic distinction.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ================= PROJECTS ================= -->
+        <section class="projects section" id="projects">
+            <div class="section-header scroll-reveal">
+                <span class="section-tag">Portfolio</span>
+                <h2 class="section-title">Featured Projects</h2>
+                <div class="section-underline"></div>
+            </div>
+
+            <div class="projects-grid-modern">
+                <!-- Project 1: Commute Connect -->
+                <div class="project-card-modern scroll-reveal">
+                    <div class="project-img-wrapper gradient-blue">
+                        <div class="mockup-frame">
+                            <img src="commute-connect.png" alt="Commute Connect App Screenshot" class="project-mockup-img">
+                        </div>
+                    </div>
+                    <div class="project-card-details">
+                        <div class="project-title-row">
+                            <h3 class="project-title-modern">Commute Connect</h3>
+                            <a href="https://commuteconnect.vercel.app" target="_blank" rel="noopener noreferrer" class="checkout-btn">
+                                <span>Check out</span>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="7" y1="17" x2="17" y2="7"></line><polyline points="7 7 17 7 17 17"></polyline></svg>
+                            </a>
+                        </div>
+                        <p class="project-desc-modern">
+                            A transit companion platform built to simplify commuting by mapping routes, coordinating schedules, and connecting passengers for ride-sharing.
+                        </p>
+                        <ul class="project-features-list">
+                            <li>
+                                <svg class="sparkle-icon" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0l3 9 9 3-9 3-3 9-3-9-9-3 9-3z"/></svg>
+                                <span>Developed interactive maps linking schedules and passenger travel coordinates.</span>
+                            </li>
+                            <li>
+                                <svg class="sparkle-icon" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0l3 9 9 3-9 3-3 9-3-9-9-3 9-3z"/></svg>
+                                <span>Designed database schema handling secure ride matching pipelines.</span>
+                            </li>
+                            <li>
+                                <svg class="sparkle-icon" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0l3 9 9 3-9 3-3 9-3-9-9-3 9-3z"/></svg>
+                                <span>Integrated fully responsive dashboards optimized for mobile and desktop screens.</span>
+                            </li>
+                        </ul>
+                        <div class="project-footer-row">
+                            <div class="project-tech-badges">
+                                <span class="badge"><span class="badge-icon react-icon"></span>React.js</span>
+                                <span class="badge"><span class="badge-icon node-icon"></span>Node.js</span>
+                                <span class="badge"><span class="badge-icon db-icon"></span>MongoDB</span>
+                                <span class="badge"><span class="badge-icon express-icon"></span>Express</span>
+                            </div>
+                            <a href="https://github.com/Pulipati-Rahul/commute-connect" target="_blank" rel="noopener noreferrer" class="code-btn" aria-label="View Github Repository">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 2: Resume Forge -->
+                <div class="project-card-modern scroll-reveal">
+                    <div class="project-img-wrapper gradient-purple">
+                        <div class="mockup-frame">
+                            <img src="resume-forge.png" alt="Resume Forge App Screenshot" class="project-mockup-img">
+                        </div>
+                    </div>
+                    <div class="project-card-details">
+                        <div class="project-title-row">
+                            <h3 class="project-title-modern">Resume Forge</h3>
+                            <a href="https://resume-forge19.vercel.app" target="_blank" rel="noopener noreferrer" class="checkout-btn">
+                                <span>Check out</span>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="7" y1="17" x2="17" y2="7"></line><polyline points="7 7 17 7 17 17"></polyline></svg>
+                            </a>
+                        </div>
+                        <p class="project-desc-modern">
+                            A lightning-fast, interactive resume builder application that enables developers to edit templates and download styled PDF resumes in real-time.
+                        </p>
+                        <ul class="project-features-list">
+                            <li>
+                                <svg class="sparkle-icon" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0l3 9 9 3-9 3-3 9-3-9-9-3 9-3z"/></svg>
+                                <span>Features clean forms with real-time UI previews rendering on input change.</span>
+                            </li>
+                            <li>
+                                <svg class="sparkle-icon" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0l3 9 9 3-9 3-3 9-3-9-9-3 9-3z"/></svg>
+                                <span>Supports PDF document formatting and downloading.</span>
+                            </li>
+                            <li>
+                                <svg class="sparkle-icon" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0l3 9 9 3-9 3-3 9-3-9-9-3 9-3z"/></svg>
+                                <span>Built on responsive structural grids using utility styles.</span>
+                            </li>
+                        </ul>
+                        <div class="project-footer-row">
+                            <div class="project-tech-badges">
+                                <span class="badge"><span class="badge-icon react-icon"></span>React.js</span>
+                                <span class="badge"><span class="badge-icon tailwind-icon"></span>Tailwind CSS</span>
+                                <span class="badge"><span class="badge-icon vercel-icon"></span>Vercel</span>
+                            </div>
+                            <a href="https://github.com/Pulipati-Rahul/resume-builder" target="_blank" rel="noopener noreferrer" class="code-btn" aria-label="View Github Repository">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 3: ECET Rankers -->
+                <div class="project-card-modern scroll-reveal">
+                    <div class="project-img-wrapper gradient-red">
+                        <div class="mockup-frame">
+                            <img src="ecet-rankers.png" alt="ECET Rankers App Screenshot" class="project-mockup-img">
+                        </div>
+                    </div>
+                    <div class="project-card-details">
+                        <div class="project-title-row">
+                            <h3 class="project-title-modern">ECET Rankers</h3>
+                            <a href="https://ecetrankers.vercel.app" target="_blank" rel="noopener noreferrer" class="checkout-btn">
+                                <span>Check out</span>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="7" y1="17" x2="17" y2="7"></line><polyline points="7 7 17 7 17 17"></polyline></svg>
+                            </a>
+                        </div>
+                        <p class="project-desc-modern">
+                            A comprehensive exam-preparation dashboard for engineering students, mapping practice analytics and ranking statistics.
+                        </p>
+                        <ul class="project-features-list">
+                            <li>
+                                <svg class="sparkle-icon" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0l3 9 9 3-9 3-3 9-3-9-9-3 9-3z"/></svg>
+                                <span>Simulates real-time mock test formats with automated tracking.</span>
+                            </li>
+                            <li>
+                                <svg class="sparkle-icon" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0l3 9 9 3-9 3-3 9-3-9-9-3 9-3z"/></svg>
+                                <span>Visualizes performance trends and historical rank estimations.</span>
+                            </li>
+                            <li>
+                                <svg class="sparkle-icon" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0l3 9 9 3-9 3-3 9-3-9-9-3 9-3z"/></svg>
+                                <span>Structured content catalog containing study guides and resources.</span>
+                            </li>
+                        </ul>
+                        <div class="project-footer-row">
+                            <div class="project-tech-badges">
+                                <span class="badge"><span class="badge-icon react-icon"></span>React.js</span>
+                                <span class="badge"><span class="badge-icon node-icon"></span>Node.js</span>
+                                <span class="badge"><span class="badge-icon db-icon"></span>MongoDB</span>
+                                <span class="badge"><span class="badge-icon express-icon"></span>Express</span>
+                            </div>
+                            <span class="private-badge" title="Source Code is Private">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="11" width="18" height="11" rx="2" ry="2"></rect><path d="M7 11V7a5 5 0 0 1 10 0v4"></path></svg>
+                                <span>Private Repo</span>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 4: Smart E-Ration Distribution System -->
+                <div class="project-card-modern scroll-reveal">
+                    <div class="project-img-wrapper gradient-green">
+                        <div class="mockup-frame">
+                            <img src="smart-eration.png" alt="Smart E-Ration App Screenshot" class="project-mockup-img">
+                        </div>
+                    </div>
+                    <div class="project-card-details">
+                        <div class="project-title-row">
+                            <h3 class="project-title-modern">Smart E-Ration</h3>
+                            <a href="https://smart-eration.42web.io" target="_blank" rel="noopener noreferrer" class="checkout-btn">
+                                <span>Check out</span>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="7" y1="17" x2="17" y2="7"></line><polyline points="7 7 17 7 17 17"></polyline></svg>
+                            </a>
+                        </div>
+                        <p class="project-desc-modern">
+                            A secure public distribution system dashboard designed to automate inventory distribution and transactions using secure authentication.
+                        </p>
+                        <ul class="project-features-list">
+                            <li>
+                                <svg class="sparkle-icon" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0l3 9 9 3-9 3-3 9-3-9-9-3 9-3z"/></svg>
+                                <span>Automates ration quota calculation based on family verification criteria.</span>
+                            </li>
+                            <li>
+                                <svg class="sparkle-icon" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0l3 9 9 3-9 3-3 9-3-9-9-3 9-3z"/></svg>
+                                <span>Tracks real-time stock allocations to eliminate distribution leakage.</span>
+                            </li>
+                            <li>
+                                <svg class="sparkle-icon" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0l3 9 9 3-9 3-3 9-3-9-9-3 9-3z"/></svg>
+                                <span>Built with a secure login flow and administrative audit panels.</span>
+                            </li>
+                        </ul>
+                        <div class="project-footer-row">
+                            <div class="project-tech-badges">
+                                <span class="badge"><span class="badge-icon node-icon"></span>Node.js</span>
+                                <span class="badge"><span class="badge-icon express-icon"></span>Express.js</span>
+                                <span class="badge"><span class="badge-icon db-icon"></span>MongoDB</span>
+                                <span class="badge"><span class="badge-icon html-icon"></span>HTML/CSS</span>
+                            </div>
+                            <a href="https://github.com/Pulipati-Rahul/e-ration-distribution" target="_blank" rel="noopener noreferrer" class="code-btn" aria-label="View Github Repository">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ================= ROADMAP ================= -->
+        <section class="roadmap section" id="roadmap">
+            <div class="section-header scroll-reveal">
+                <span class="section-tag">Learning</span>
+                <h2 class="section-title">Development Roadmap</h2>
+                <div class="section-underline"></div>
+            </div>
+
+            <div class="roadmap-grid">
+                <div class="roadmap-card completed scroll-reveal">
+                    <span class="roadmap-status">✓ Completed</span>
+                    <h3 class="roadmap-title">Core Web Standards</h3>
+                    <p class="roadmap-text">Semantic HTML5, Responsive CSS3 Grid/Flexbox, and ES6+ JavaScript concepts.</p>
+                </div>
+                <div class="roadmap-card completed scroll-reveal">
+                    <span class="roadmap-status">✓ Completed</span>
+                    <h3 class="roadmap-title">Frontend Frameworks</h3>
+                    <p class="roadmap-text">Developing scalable single-page apps (SPAs) with state management in React.js.</p>
+                </div>
+                <div class="roadmap-card completed scroll-reveal">
+                    <span class="roadmap-status">✓ Completed</span>
+                    <h3 class="roadmap-title">Backend Architecture</h3>
+                    <p class="roadmap-text">Structuring Node.js & Express servers, routing, middleware integration, and security layers.</p>
+                </div>
+                <div class="roadmap-card completed scroll-reveal">
+                    <span class="roadmap-status">✓ Completed</span>
+                    <h3 class="roadmap-title">Databases & Cloud</h3>
+                    <p class="roadmap-text">Modeling relational & document schemas, database optimization, and deployment on cloud systems.</p>
+                </div>
+                <div class="roadmap-card in-progress scroll-reveal">
+                    <span class="roadmap-status">⚙ In Progress</span>
+                    <h3 class="roadmap-title">Next.js & Performance</h3>
+                    <p class="roadmap-text">Server-side rendering (SSR), static site generation (SSG), caching strategies, and Core Web Vitals.</p>
+                </div>
+                <div class="roadmap-card in-progress scroll-reveal">
+                    <span class="roadmap-status">⚙ In Progress</span>
+                    <h3 class="roadmap-title">System Design</h3>
+                    <p class="roadmap-text">Learning microservices architecture, load balancing, message queues, and high-availability database setups.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- ================= CONTACT (FORM) ================= -->
+        <section class="contact section" id="contact">
+            <div class="section-header scroll-reveal">
+                <span class="section-tag">Inquiries</span>
+                <h2 class="section-title">Get In Touch</h2>
+                <div class="section-underline"></div>
+            </div>
+
+            <div class="contact-container-modern scroll-reveal">
+                <div class="contact-header-modern">
+                    <h3 class="contact-form-title">Get In Touch - <span class="highlight-text">ASK ME ANYTHING!</span></h3>
+                    <p class="contact-form-subtitle">
+                        Ready to collaborate or have a project in mind?<br>
+                        I'm always open to new opportunities and interesting conversations.
+                    </p>
+                </div>
+
+                <form id="contactForm" class="contact-form-modern" autocomplete="off">
+                    <div class="form-group-modern">
+                        <input type="text" id="formName" name="name" required placeholder=" " class="form-input-modern">
+                        <label for="formName" class="form-label-modern">Name</label>
+                        <div class="input-icon-box">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="input-svg-icon"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path><circle cx="12" cy="7" r="4"></circle></svg>
+                        </div>
+                        <div class="input-line-accent"></div>
+                    </div>
+
+                    <div class="form-group-modern">
+                        <input type="email" id="formEmail" name="email" required placeholder=" " class="form-input-modern">
+                        <label for="formEmail" class="form-label-modern">Email</label>
+                        <div class="input-icon-box">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="input-svg-icon"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+                        </div>
+                        <div class="input-line-accent"></div>
+                    </div>
+
+                    <div class="form-group-modern">
+                        <textarea id="formMessage" name="message" required placeholder=" " class="form-textarea-modern" rows="4"></textarea>
+                        <label for="formMessage" class="form-label-modern">Message</label>
+                        <div class="input-icon-box">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="input-svg-icon"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path></svg>
+                        </div>
+                        <div class="input-line-accent"></div>
+                    </div>
+
+                    <button type="submit" class="form-submit-btn-modern">
+                        <span>SEND MESSAGE</span>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="22" y1="2" x2="11" y2="13"></line><polygon points="22 2 15 22 11 13 2 9 22 2"></polygon></svg>
+                    </button>
+
+                    <!-- Contact Form Social Links -->
+                    <div class="contact-socials-modern">
+                        <a href="https://github.com/Pulipati-Rahul" target="_blank" rel="noopener noreferrer" aria-label="GitHub Profile" class="contact-social-btn">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
+                        </a>
+                        <a href="https://www.linkedin.com/in/pulipati-rahul-92a27940b" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn Profile" class="contact-social-btn">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg>
+                        </a>
+                        <a href="https://www.instagram.com/pulipati_rahul19" target="_blank" rel="noopener noreferrer" aria-label="Instagram Profile" class="contact-social-btn">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line></svg>
+                        </a>
+                        <a href="mailto:pulipatirahul19@gmail.com" aria-label="Email Address" class="contact-social-btn">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+                        </a>
+                    </div>
+                </form>
+                
+                <!-- Toast Notification Container -->
+                <div id="toastNotification" class="toast-notification">
+                    <span class="toast-message">Message sent successfully! Thanks for reaching out.</span>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- ================= FOOTER ================= -->
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-top">
+                <div class="footer-info">
+                    <a href="#" class="logo">
+                        <span class="logo-accent">Pulipati Rahul</span>
+                    </a>
+                    <p class="footer-tagline">Building clean, robust code and interactive interfaces for modern web applications.</p>
+                </div>
+                
+                <div class="footer-links-group">
+                    <h4>Navigation</h4>
+                    <div class="footer-links">
+                        <a href="#home">Home</a>
+                        <a href="#about">About</a>
+                        <a href="#skills">Skills</a>
+                        <a href="#expertise">Expertise</a>
+                        <a href="#education">Education</a>
+                        <a href="#projects">Projects</a>
+                        <a href="#roadmap">Roadmap</a>
+                        <a href="#contact">Contact</a>
+                    </div>
+                </div>
+                
+                <div class="footer-stack-group">
+                    <h4>Portfolio Stack</h4>
+                    <p class="footer-stack-details">
+                        Handcrafted with semantic HTML5, modern vanilla CSS3 properties (Grid, Flexbox, custom variables), and vanilla JavaScript reveals. Fully optimized for responsiveness and fast loading.
+                    </p>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p class="copyright">&copy; 2026 Pulipati Rahul. All Rights Reserved.</p>
+                <div class="footer-social-links">
+                    <a href="https://github.com/Pulipati-Rahul" target="_blank" rel="noopener noreferrer" aria-label="GitHub">GitHub</a>
+                    <a href="https://www.linkedin.com/in/pulipati-rahul-92a27940b" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">LinkedIn</a>
+                    <a href="https://www.instagram.com/pulipati_rahul19" target="_blank" rel="noopener noreferrer" aria-label="Instagram">Instagram</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Script -->
+    <script src="javascript.js"></script>
+</body>
+</html>
