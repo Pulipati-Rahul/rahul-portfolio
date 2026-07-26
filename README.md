@@ -1,10 +1,10 @@
-# 👋 Rahul Pulipati – Developer Portfolio
+# 👋 Pulipati Rahul – Developer Portfolio
 
 A modern, responsive, and performance-focused personal portfolio built to showcase my skills, projects, and development journey. The website highlights my technical expertise, featured applications, education, and contact information with smooth animations and a clean user experience.
 
 ## 🌐 Live Demo
 
-**Portfolio:** https://rahul-portfolio-git-main-elite27.vercel.app
+**Portfolio:** https://pulipatirahul.vercel.app/
 
 ---
 
