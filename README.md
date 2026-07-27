@@ -1,99 +1,191 @@
-# Rahul Pulipati | Personal Portfolio
+# 👋 Pulipati Rahul – Developer Portfolio
 
-A sleek, modern, and fully responsive developer portfolio built to showcase technical skills, featured web applications, and professional services. This project uses vanilla HTML5, CSS3, and JavaScript, prioritizing visual excellence, fluid animations, and responsiveness.
+A modern, responsive, and performance-focused personal portfolio built to showcase my skills, projects, and development journey. The website highlights my technical expertise, featured applications, education, and contact information with smooth animations and a clean user experience.
 
----
+## 🌐 Live Demo
 
-## 🚀 Live Preview
-<<<<<<< HEAD
-Explore the portfolio locally or host it directly via platforms like **Vercel**, **Netlify**, or **GitHub Pages**.
-=======
-https://rahul-portfolio-git-main-elite27.vercel.app
->>>>>>> 9729151ff115caafecc4ca125eac005edeb551fb
-*   **Active Features:** Dynamic typing animation, floating profile card, interactive SVG-based contact cards, and smooth scroll reveal transitions.
+**Portfolio:** https://pulipatirahul.vercel.app
 
 ---
 
-## 🛠️ Features
+## ✨ Highlights
 
-*   **Premium Visuals & Dark Mode:** Curated dark-themed gradient background utilizing HSL tailored colors (`#020617` to `#1e293b`).
-*   **Dynamic Hero Section:** Two-column desktop grid displaying a typing introduction animation alongside a floating, glowing circular profile photo (`profile.jpeg`).
-*   **Technical Skills Grid:** Clean categorizations across Frontend, Backend, Database, Languages, Tools, and Hosting & Cloud stacks.
-*   **Development Roadmap:** Visual timeline demonstrating currently mastered technologies and ongoing learning tracks.
-*   **Services Portfolio:** Professional showcase detailing competence in Full Stack Development, Backend Development, UI/UX & Responsive Design, Resume Building, Digital Marketing, and API Integration.
-*   **Clickable Contact Grid:** Completely updated social cards (Email, LinkedIn, GitHub, Instagram, Facebook) displaying custom hover elevations, neon border glows, and self-filling inline SVG icons.
-
----
-
-## 💻 Tech Stack
-
-*   **Structure:** Semantic HTML5
-*   **Styling:** Modern Vanilla CSS3 (Custom properties, CSS Grids, Flexbox, Keyframes)
-*   **Interactions:** Vanilla JavaScript (Dynamic scroll reveals, typing animations, scroll-linked active navbar)
-*   **Typography:** [Google Fonts (Poppins)](https://fonts.google.com)
-*   **Iconography:** High-quality inline SVGs (for crisp, zero-dependency loading)
+- Responsive design for Mobile, Tablet & Desktop
+- Modern dark-themed UI with gradient effects
+- Animated typing introduction
+- Smooth scrolling navigation
+- Interactive project showcase
+- Professional skills section
+- Development roadmap
+- Services section
+- Animated contact cards with SVG icons
+- Optimized performance with zero UI frameworks
 
 ---
 
-## 📁 File Structure
+## 🛠 Tech Stack
+
+### Frontend
+- HTML5
+- CSS3
+- JavaScript (ES6)
+
+### Design
+- CSS Grid
+- Flexbox
+- CSS Animations
+- Responsive Design
+- Custom Properties (CSS Variables)
+
+### Fonts & Assets
+- Google Fonts (Poppins)
+- SVG Icons
+
+### Deployment
+- Vercel
+
+---
+
+## 📂 Project Structure
 
 ```text
-Rahul Portfolio/
-├── portfolio.html      # Main page structure & semantic layouts
-├── stylesheets.css     # Core stylesheet, variables, animations, and responsive media queries
-├── javascript.js       # Typing effect, scroll reveals, active navigation logic
-├── profile.jpeg        # Profile avatar photo
-└── README.md           # Documentation for GitHub repository
+Rahul-Portfolio/
+│
+├── index.html
+├── stylesheets.css
+├── javascript.js
+├── profile.jpeg
+└── README.md
 ```
 
 ---
 
-<<<<<<< HEAD
-## ⚙️ Quick Start
+## 🚀 Getting Started
 
-To run this project locally:
+### Clone the Repository
 
-1.  **Clone the Repository:**
-    ```bash
-    git clone https://github.com/Rahul19347558865/Rahul-Portfolio.git
-    cd Rahul-Portfolio
-    ```
-2.  **Open in Browser:**
-    *   Simply double-click `portfolio.html` to open it in your default web browser, or:
-    *   Use a local development server like **Live Server** (VS Code extension) for live hot-reloading.
+```bash
+git clone https://github.com/Pulipati-Rahul/Rahul-Portfolio.git
+```
+
+### Navigate into the Project
+
+```bash
+cd Rahul-Portfolio
+```
+
+### Run Locally
+
+Simply open `index.html` in your browser or use VS Code Live Server.
 
 ---
-=======
->>>>>>> 9729151ff115caafecc4ca125eac005edeb551fb
 
-## ✏️ Customization
+## 📸 Features Overview
 
-Make this portfolio your own by modifying these files:
+### Hero Section
+- Animated typing effect
+- Floating profile image
+- Social media links
+- Resume download
 
-### 1. Update Personal Info & Links (`portfolio.html`)
-*   Change the profile names, titles, and descriptions inside sections: `<section id="home">`, `<section id="about">`, and `<section id="education">`.
-*   Replace contact URLs under `<div class="contact-grid">` with your own profile links.
+### About
+- Introduction
+- Career objective
+- Technical overview
 
-### 2. Update Profile Image
-*   Replace `profile.jpeg` with your own image, keeping the filename identical, or edit the source path in:
-    ```html
-    <img src="profile.jpeg" alt="Pulipati Rahul">
-    ```
+### Skills
+- Frontend
+- Backend
+- Database
+- Programming Languages
+- Tools
+- Hosting & Cloud
 
-### 3. Edit Typing Roles (`javascript.js`)
-Modify the `roles` array at the top of `javascript.js` to change the roles printed out in the typing animation:
-```javascript
-const roles = [
-    "Full Stack Developer",
-    "Web Developer",
-    "Frontend Developer",
-    "Problem Solver",
-    "Digital Marketing Enthusiast"
-];
-```
+### Projects
+Showcases major projects including:
+
+- DevTrack AI
+- Commute Connect
+- ECET Rankers
+- Resume Builder
+- AI Interview Platform
+
+### Education
+
+Professional academic timeline.
+
+### Services
+
+- Full Stack Development
+- Frontend Development
+- Backend Development
+- Responsive Web Design
+- Resume Building
+- Digital Marketing
+
+### Contact
+
+Quick access to:
+
+- Email
+- LinkedIn
+- GitHub
+- Instagram
+- Facebook
+
+---
+
+## 🎯 Goals
+
+This portfolio serves as a central place to showcase:
+
+- Technical Skills
+- Development Journey
+- Featured Projects
+- Resume
+- Contact Information
+- Professional Growth
+
+---
+
+## 📈 Future Improvements
+
+- Dark/Light Theme Toggle
+- Project Filtering
+- Blog Section
+- Project Search
+- Internationalization
+- Performance Optimizations
+- Accessibility Improvements
+- Visitor Analytics
 
 ---
 
 ## 📄 License
 
-This repository is available under the [MIT License](LICENSE). Feel free to modify and build upon this code for your personal portfolios!
+This project is licensed under the MIT License.
+
+---
+
+# 👨‍💻 Author
+
+**Pulipati Rahul**
+
+Full Stack Developer
+
+GitHub:
+https://github.com/Pulipati-Rahul
+
+LinkedIn:
+https://www.linkedin.com/in/pulipatirahul
+
+Portfolio:
+https://pulipatirahul.vercel.app
+
+---
+
+# ⭐ Support
+
+If you found this project helpful, consider giving it a ⭐ on GitHub.
+
+It motivates me to continue building high-quality projects.
