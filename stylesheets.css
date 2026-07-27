@@ -99,6 +99,17 @@ a {
    AMBIENT GLOWS
 ========================== */
 
+.glow-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    z-index: -1;
+    pointer-events: none;
+}
+
 .glow-bg {
     position: absolute;
     width: 600px;
@@ -158,11 +169,12 @@ a {
 }
 
 .logo {
-    font-size: 1.4rem;
+    font-size: clamp(1.05rem, 5.5vw, 1.4rem);
     font-weight: 800;
     color: var(--color-text-primary);
     display: flex;
     align-items: center;
+    white-space: nowrap;
 }
 
 .logo-accent {
@@ -473,6 +485,7 @@ a {
 .profile-card {
     position: relative;
     width: 320px;
+    max-width: 100%;
     padding: 1.5rem;
     border-radius: 20px;
     background: var(--bg-surface);
@@ -1763,6 +1776,8 @@ a {
         display: block;
         margin: 2rem auto;
         width: fit-content;
+        max-width: 100%;
+        padding: 0 1rem;
     }
     
     .hero-badge {
