@@ -179,7 +179,20 @@ document.addEventListener("DOMContentLoaded", () => {
     }
     
     /* ==========================================
-       7. CONSOLE SIGNATURE
+       7. FRONTEND PROJECTS DROPDOWN TOGGLE
+    ========================================== */
+    const frontendDropdownBtn = document.getElementById("frontendDropdownBtn");
+    const frontendProjectsContainer = document.getElementById("frontendProjectsContainer");
+    
+    if (frontendDropdownBtn && frontendProjectsContainer) {
+        frontendDropdownBtn.addEventListener("click", () => {
+            const isExpanded = frontendDropdownBtn.getAttribute("aria-expanded") === "true";
+            frontendDropdownBtn.setAttribute("aria-expanded", !isExpanded);
+        });
+    }
+    
+    /* ==========================================
+       8. CONSOLE SIGNATURE
     ========================================== */
     console.log(
         "%cWelcome to Pulipati Rahul's Portfolio",

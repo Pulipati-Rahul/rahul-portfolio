@@ -46,47 +46,6 @@ A modern, responsive, and performance-focused personal portfolio built to showca
 
 ---
 
-## 📸 Screenshots
-
-### 🏠 Home & About
-
-| Home | About |
-|------|------|
-| ![](screenshots/01-home.png) | ![](screenshots/02-about.png) |
-
----
-
-### 🛠️ Skills & Expertise
-
-| Skills | Expertise |
-|--------|-----------|
-| ![](screenshots/03-skills.png) | ![](screenshots/04-expertise.png) |
-
----
-
-### 🎓 Education & Projects
-
-| Education | Projects |
-|-----------|----------|
-| ![](screenshots/05-education.png) | ![](screenshots/06-projects-1.png) |
-
----
-
-### 🚀 More Projects & Roadmap
-
-| Projects | Roadmap |
-|----------|---------|
-| ![](screenshots/07-projects-2.png) | ![](screenshots/08-roadmap.png) |
-
----
-
-### 📬 Contact
-
-<p align="center">
-<img src="screenshots/09-contact.png" width="80%">
-</p>
----
-
 ## 📂 Project Structure
 
 ```text
